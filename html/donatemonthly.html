@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vital Aid</title>
+    <link rel="stylesheet" href="/css/donatemonthly.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class=" navbar">
+        <div class="logo-container">
+            <img src="/assets/heartlogo-1.svg" class="logo">
+            <h1 class="brand">VITAL AID</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/html/helpnow.html">Help Now</a></li>
+            <li><a href="/html/donatemonthly.html">Donate Monthly</a></li>
+            <li><a href="/html/donationprocess.html">Donation Process</a></li>
+        </ul>
+        <div class="auth-btn">
+            <a href="/html/homepage.html" class="login-signup">Home</a>
+        </div>
+        </nav>
+
+    <!-- Donate Monthly Section -->
+    <section class="donate-monthly-section">
+        <div class="donate-background">
+            <img src="/assets/infant.svg" alt="Donate Background">
+        </div>
+        <div class="donate-form-container">
+            <div class="form-header">
+                <h2>TRANSFORM LIVES</h2>
+                <h3>WITH MONTHLY CONTRIBUTIONS</h3>
+                <p>Change lives with monthly donations. VitalAid's Social Investment Plan creates impact every day. Join us to make a difference.</p>
+            </div>
+            <form class="donate-form">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" placeholder="Enter your full name">
+                
+                <label for="mobile-number">Mobile Number</label>
+                <div class="mobile-number-container">
+                    <select id="country-code">
+                        <option value="+91">+91</option>
+                    </select>
+                    <input type="text" id="mobile-number" placeholder="Mobile Number">
+                </div>
+
+                <label for="mission">Mission</label>
+                <input type="text" id="mission" placeholder="What is your mission">
+
+                <label>Amount</label>
+                <div class="amount-options">
+                    <div class="amount-option">₹500/Month</div>
+                    <div class="amount-option">₹1000/Month</div>
+                    <div class="amount-option">₹2000/Month</div>
+                    <div class="amount-option">₹3000/Month</div>
+                </div>
+
+                <label for="preferred-date">Preferred Date</label>
+                <select id="preferred-date">
+                    <option value="14">14</option>
+                </select>
+
+                <div class="terms-and-conditions">
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms">I accept the <a href="/html/tandc.html">terms and policy</a></label>
+                </div>
+                <form action="/html/PaymentPage.html">
+                <button type="submit" class="donate-button">Donate Monthly</button>
+               </form>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

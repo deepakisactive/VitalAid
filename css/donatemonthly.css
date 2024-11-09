@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image:url("/assets/infant.svg");
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e37565;
+    /* Navbar background color */
+    padding: 15px 30px;
+
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    /* Text color for brand */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    /* Link color */
+    font-weight: bold;
+}
+.nav-links a:hover{
+    text-decoration:dotted underline;
+    text-decoration-color: white;
+}
+.auth-btn {
+    background-color: #2e1b59;
+    /* Dark purple background for the button */
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-signup {
+    text-decoration: none;
+    color: white;
+    /* White text color */
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.login-signup::before {
+    content: '→';
+    margin-right: 5px;
+}
+
+.login-signup:hover {
+    color: #dcdcdc;
+    /* Light gray on hover */
+}
+
+/* Donate Monthly Section */
+.donate-monthly-section {
+    position: relative;
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding-top: 40px;
+}
+
+.donate-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.donate-form-container {
+    width: 747px;
+    background: #c5de39e5;
+    border-radius: 70px;  
+    padding: 40px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-header h2, .form-header h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+
+.form-header h2 {
+    font-size: 36px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+.form-header p {
+    font-family: 'Baloo Chettan 2', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000;
+    letter-spacing: 0.4px;
+}
+
+.donate-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.donate-form label {
+    font-weight: 600;
+    font-size: 16px;
+    color: #1e1e1e;
+    margin-bottom: 5px;
+}
+
+.donate-form input[type="text"], .donate-form select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.mobile-number-container {
+    display: flex;
+}
+
+#country-code {
+    width: 20%;
+    max-width: 80px;
+    padding-right: 5px;
+}
+
+#mobile-number {
+    flex: 1;
+}
+
+.amount-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount-option {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #e2e2e2;
+    cursor: pointer;
+}
+
+.amount-option:hover {
+    border: 1px solid #000;
+}
+
+.terms-and-conditions {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.terms-and-conditions input {
+    margin-right: 10px;
+}
+
+.terms-and-conditions a {
+    color: #1e1e1e;
+    text-decoration: underline;
+}
+
+.donate-button {
+    background: #b34040;
+    color: #f5f5f5;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+}

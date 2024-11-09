@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cae4b8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e37565;
+    /* Navbar background color */
+    padding: 15px 30px;
+
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    /* Text color for brand */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    /* Link color */
+    font-weight: bold;
+}
+.nav-links a:hover{
+    text-decoration:dotted underline;
+    text-decoration-color: white;
+}
+.auth-btn {
+    background-color: #2e1b59;
+    /* Dark purple background for the button */
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-signup {
+    text-decoration: none;
+    color: white;
+    /* White text color */
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.login-signup::before {
+    content: '→';
+    margin-right: 5px;
+}
+
+.login-signup:hover {
+    color: #dcdcdc;
+    /* Light gray on hover */
+}
+.footer {
+    background-color: #000000; /* Dark background */
+    color: rgb(255, 255, 255);
+    padding: 40px 0;
+    text-align: center;
+}
+
+
+
+.social-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-header h2 {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.social-header span {
+    font-weight: bold;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-stats {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footer-stats img{
+    padding:10px;
+    height: 50px;
+}
+.stat {
+    margin: 0 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.stat strong {
+    font-size: 18px;
+}
+
+hr {
+    border: 1px solid #707070;
+    margin: 20px 0;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.subscribe-section,
+.contact-section,
+.logo-section {
+    width: 30%;
+}
+
+.subscribe-section h3,
+.contact-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.subscribe-section form {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.subscribe-section input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.subscribe-section button {
+    padding: 10px 20px;
+    background-color: #e74c3c; /* Red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section p {
+    margin: 5px 0;
+}
+
+.logo-section h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.logo-section p {
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.legal-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.legal-links a:hover {
+    text-decoration: underline;
+}

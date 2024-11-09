@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #cae4b8;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 104px); /* Subtract height of navbar */
+    padding: 20px;
+}
+
+.donation-section {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    background-color: #f4f6fe;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.left-section {
+    width: 50%;
+    position: relative;
+}
+
+.left-section .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.left-section .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-section .overlay-text {
+    font-family: 'Sansita', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76.8px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.right-section {
+    width: 50%;
+    padding: 40px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-section .header {
+    display: flex;
+    align-items: center;
+}
+
+.right-section .small-logo {
+    width: 150px;
+    height: 103px;
+}
+
+.right-section .brand-name-small {
+    font-family: 'Hubballi', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 47.8px;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.welcome-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #828282;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.donation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.form-group label {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #333333;
+}
+
+.form-group select {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    background-color: #f4f4f4;
+}
+
+.donation-amount .radio-group,
+.form-group .radio-group {
+    display: flex;
+    gap: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    background-color: #f4f4f4;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+}
+
+.terms input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.terms a {
+    color: #27ae60ff;
+    text-decoration: underline;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cancel-button,
+.submit-button {
+    width: 48%;
+    padding: 12px 0;
+    border-radius: 8px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+.cancel-button {
+    background-color: #ffffff;
+    color: #27ae60ff;
+    border: 1px solid #27ae60ff;
+}
+
+.submit-button {
+    background-color: #27ae60ff;
+    color: #ffffff;
+}
