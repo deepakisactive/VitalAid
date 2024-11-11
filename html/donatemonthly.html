@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vital Aid</title>
-    <link rel="stylesheet" href="/css/donatemonthly.css">
+    <link rel="stylesheet" href="../css/donatemonthly.css">
 </head>
 <body>
     <!-- Navigation Bar -->
     <nav class=" navbar">
         <div class="logo-container">
-            <img src="/assets/heartlogo-1.svg" class="logo">
+            <img src="/assets/heartlogo-1.svg" class="logo" alt="">
             <h1 class="brand">VITAL AID</h1>
         </div>
         <ul class="nav-links">
-            <li><a href="/html/helpnow.html">Help Now</a></li>
-            <li><a href="/html/donatemonthly.html">Donate Monthly</a></li>
-            <li><a href="/html/donationprocess.html">Donation Process</a></li>
+            <li><a href="helpnow.html">Help Now</a></li>
+            <li><a href="donatemonthly.html">Donate Monthly</a></li>
+            <li><a href="donationprocess.html">Donation Process</a></li>
         </ul>
         <div class="auth-btn">
-            <a href="/html/homepage.html" class="login-signup">Home</a>
+            <a href="homepage.html" class="login-signup">Home</a>
         </div>
         </nav>
 
@@ -40,8 +40,10 @@
                 
                 <label for="mobile-number">Mobile Number</label>
                 <div class="mobile-number-container">
+                    
                     <select id="country-code">
-                        <option value="+91">+91</option>
+                        
+                        <option value="+91"><legend>In</legend> +91</option>
                     </select>
                     <input type="text" id="mobile-number" placeholder="Mobile Number">
                 </div>
@@ -64,9 +66,9 @@
 
                 <div class="terms-and-conditions">
                     <input type="checkbox" id="terms" name="terms">
-                    <label for="terms">I accept the <a href="/html/tandc.html">terms and policy</a></label>
+                    <label for="terms">I accept the <a href="tandc.html">terms and policy</a></label>
                 </div>
-                <form action="/html/PaymentPage.html">
+                <form action="PaymentPage.html">
                 <button type="submit" class="donate-button">Donate Monthly</button>
                </form>
             </form>
