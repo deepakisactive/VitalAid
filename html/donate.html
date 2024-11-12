@@ -20,7 +20,6 @@
                 <div class="header">
                     <img src="../assets/heartlogo-1-2.svg" alt="Heart Logo Small" class="small-logo">
                     <span class="brand-name-small">VITAL AID</span>
-                    brand name is if == then if else()
                 </div>
                 <p class="welcome-text">
                     Welcome to Vital Aid donation, please fill out the form below. Hopefully it is blessed.
@@ -29,37 +28,19 @@
                     <div class="form-group">
                         <label for="donation-type">Choose a donation type</label>
                         <select id="donation-type">
-                            <option>Cost of education</option>
+                            <!-- Dynamic options will be populated here -->
                         </select>
                     </div>
                     <div class="form-group donation-amount">
                         <span>Choose a donation amount</span>
-                        <div class="radio-group">
-                            <label>
-                                <input type="radio" name="donation-amount" value="$25">
-                                $25
-                            </label>
-                            <label>
-                                <input type="radio" name="donation-amount" value="$50">
-                                $50
-                            </label>
-                            <label>
-                                <input type="radio" name="donation-amount" value="$100">
-                                $100
-                            </label>
+                        <div class="radio-group" id="donation-amount-options">
+                            <!-- Dynamic radio buttons will be populated here -->
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="donation-frequency">Choose a donation frequency</label>
-                        <div class="radio-group">
-                            <label>
-                                <input type="radio" name="donation-frequency" value="Monthly" checked>
-                                Monthly
-                            </label>
-                            <label>
-                                <input type="radio" name="donation-frequency" value="One time">
-                                One time
-                            </label>
+                        <div class="radio-group" id="donation-frequency-options">
+                            <!-- Dynamic radio buttons will be populated here -->
                         </div>
                     </div>
                     
@@ -75,5 +56,7 @@
             </div>
         </div>
     </main>
+  
+    <script src="../js/donate.js"></script>
 </body>
 </html>

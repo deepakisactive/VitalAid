@@ -1,0 +1,15 @@
+{
+    "cards": [
+      { "id": "visa", "name": "Visa" },
+      { "id": "mastercard", "name": "MasterCard" }
+    ],
+    "netBanking": [
+      { "id": "sbi", "name": "State Bank of India" },
+      { "id": "hdfc", "name": "HDFC Bank" }
+    ],
+    "upi": [
+      { "id": "gpay", "name": "Google Pay" },
+      { "id": "phonepe", "name": "PhonePe" }
+    ]
+  }
+  
