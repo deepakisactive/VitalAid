@@ -31,7 +31,7 @@ document.querySelector(".donate-form").addEventListener("submit", function(event
 // Function to dynamically populate donation amounts based on JSON data
 function loadDonationAmounts() {
     const amountOptions = document.querySelector(".amount-options");
-    fetch('../json/donationAmounts.json')
+    fetch('../json/donatemonthly.json')
         .then(response => response.json())
         .then(data => {
             data.amounts.forEach(amount => {
@@ -46,6 +46,7 @@ function loadDonationAmounts() {
             });
         })
         .catch(error => console.error('Error loading donation amounts:', error));
+
 }
 
 // Call the function when the page loads
